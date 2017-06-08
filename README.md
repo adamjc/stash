@@ -19,4 +19,7 @@ stash.remove('foo')
 
 // Clear the cache
 stash.empty()
+
+// Get the keys of the cache
+stash.keys()
 ```
