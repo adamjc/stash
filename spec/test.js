@@ -17,9 +17,9 @@ describe('Stash', () => {
     let cache = stash()
     cache.set('foo', 'foo')
     cache.set('bar', 'bar')
-    expect(cache.size()).toBe(2)
+    expect(cache.keys().length).toBe(2)
     cache.empty()
-    expect(cache.size()).toBe(0)
+    expect(cache.keys().length).toBe(0)
   })
 
   it('should be able to set a timeout', (done) => {

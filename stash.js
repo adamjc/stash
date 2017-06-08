@@ -41,7 +41,6 @@ function stash (timeout) {
     set: set,
     get: get,
     keys: () => Object.keys(cache),
-    size: () => Object.keys(cache).length,
     empty: empty
   }
 }
