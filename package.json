@@ -1,0 +1,14 @@
+{
+  "name": "stash",
+  "version": "1.0.0",
+  "description": "A simple in-memory cache",
+  "main": "stash.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
