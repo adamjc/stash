@@ -4,7 +4,7 @@ describe('Stash', () => {
   it('should be able to set an item', () => {
     let cache = stash()
     cache.set('foo', 'bar')
-    expect(cache.size()).toBe(1)
+    expect(cache.keys().length).toBe(1)
   });
 
   it('should be able to get an item', () => {
